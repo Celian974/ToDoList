@@ -77,9 +77,9 @@ def apply_options():
                             confirmation = input(Fore.YELLOW + "Are you sure that you want to modify this task ? [yes/no] : ")
 
                             if confirmation == "yes":
+                                print(Fore.GREEN + f"Task \"{tasks[task_id - 1]}\" has been successfully updated to \"{modified_task}\".")
                                 tasks[task_id - 1] = modified_task
                                 save_tasks(tasks)
-                                print(Fore.GREEN + f"Task \"{tasks[task_id - 1]}\" has been successfully updated to \"{modified_task}\".")
                                 break
 
                             elif confirmation == "no":
