@@ -48,6 +48,7 @@ def apply_options():
                                 removed_task = tasks.pop(task_id - 1)
                                 save_tasks(tasks)
                                 print(Fore.GREEN + f"La tâche \"{removed_task}\" a été supprimée avec succès.")
+                                break
 
                             elif confirmation == "non":
                                 print(Fore.YELLOW + "Annulation...")
