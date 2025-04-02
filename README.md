@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a terminal-based application that allows users to create a To-Do List and manage their tasks efficiently by adding, removing, modifying, listing their tasks. Tasks are stored in a JSON file to ensure persistence across sessions.
+This is a terminal-based application that allows users to create a to-do-list and manage their tasks efficiently by adding, removing, modifying, listing their tasks. Tasks are stored in a JSON file to ensure persistence across sessions.
 
 ## Features
 
