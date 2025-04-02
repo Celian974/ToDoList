@@ -122,36 +122,36 @@ Assurez-vous que *python3* est installé sur votre système. Vous avez égalemen
 1. Clonez ce dépot :
     - Avec SSH
 
-    ```
+    ```bash
     git clone git@github.com:Celian974/ToDoList.git
     ```
 
     - Avec HTTPS
 
-    ```
+    ```bash
     git clone https://github.com/Celian974/ToDoList.git
     ```
 2. Accédez au répertoire **ToDoList** :
 
-    ```
+    ```bash
     cd ToDoList
 ## Utilisation
 
 1. Lancez le programme en exécutant les commandes suivantes :
 
-    ```
+    ```bash
     make fr
     ```
     *(si vous souhaitez utiliser l'affichage en **français**)*
 
-    ```
+    ```bash
     make en
     ```
     *(si vous souhaitez utiliser l'affichage en **anglais**)*
 
 2. Les options disponibles vous serons montrées, et vous serez invités à en sélectionner une :
 
-    ```
+    ```bash
     ➜  ToDoList git:(main) ✗ make en
     /bin/python3 src/en/to_do_list.py
 
@@ -172,7 +172,7 @@ Assurez-vous que *python3* est installé sur votre système. Vous avez égalemen
 
 ### Exemple de session
 
-```
+```bash
 ➜  ToDoList git:(main) ✗ make fr
 /bin/python3 src/en/to_do_list.py
 
