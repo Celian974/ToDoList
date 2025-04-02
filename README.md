@@ -36,7 +36,7 @@ Make sure you have *python3* installed on your system. You also need *colorama* 
     ```
 2. Navigate to **ToDoList** directory :
 
-    ```
+    ```bash
     cd ToDoList
 ## Usage
 
