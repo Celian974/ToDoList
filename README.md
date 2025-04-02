@@ -25,13 +25,13 @@ Make sure you have *python3* installed on your system. You also need *colorama* 
 1. Clone this repository :
     - Using SSH
 
-    ```
+    ```bash
     git clone git@github.com:Celian974/ToDoList.git
     ```
 
     - Using HTTPS
 
-    ```
+    ```bash
     git clone https://github.com/Celian974/ToDoList.git
     ```
 2. Navigate to **ToDoList** directory :
@@ -42,19 +42,19 @@ Make sure you have *python3* installed on your system. You also need *colorama* 
 
 1. Run the program by running the following commands :
 
-    ```
+    ```bash
     make fr
     ```
     *(if you want to use the **french** display)*
 
-    ```
+    ```bash
     make en
     ```
     *(if you want to use the **english** display)*
 
 2. You will be shown the available options, and prompted to select one :
 
-    ```
+    ```bash
     ➜  ToDoList git:(main) ✗ make en
     /bin/python3 src/en/to_do_list.py
 
@@ -75,7 +75,7 @@ Make sure you have *python3* installed on your system. You also need *colorama* 
 
 ### Example session
 
-```
+```bash
 ➜  ToDoList git:(main) ✗ make en
 /bin/python3 src/en/to_do_list.py
 
